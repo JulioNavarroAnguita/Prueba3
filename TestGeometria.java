@@ -1,3 +1,9 @@
+/** Programa que calcula
+ * el área de los objetos
+ * @author Julio Navarro
+ * @version 1.0
+ */
+
 public class TestGeometria {
 
 	public static void main (String [] args) {
