@@ -18,8 +18,8 @@ public class Geometria {
 	 * @return área de un cuadrado
 	 */
 
-	public static double areaDeCuadrado (double lado) {
-		return lado * lado;
+	public static double areaDeCuadrado (double lado1, double lado2) {
+		return lado1 * lado2;
 	}
 	
 	/**
@@ -38,8 +38,8 @@ public class Geometria {
 	 * @return área de un rectangulo
 	 */
 
-	public static double areaDeRectangulo (double base, double altura) {
-		return base * altura;
+	public static double areaDeRectangulo (double baseRectangulo, double alturaRectangulo) {
+		return baseRectangulo * alturaRectangulo;
 	}
 
 	/**
@@ -48,8 +48,8 @@ public class Geometria {
 	 * @return área de un circulo
 	 */
 
-	public static double areaDeCirculo (double radio) {
-		return radio * radio * PI;
+	public static double areaDeCirculo (double radio1, double radio2) {
+		return radio1 * radio2 * PI;
 	}
 
 }
